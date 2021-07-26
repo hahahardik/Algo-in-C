@@ -1,7 +1,10 @@
 // Linear Search Algorithm
 
+//Here we intitailize a counter and go one-by-one through the array to check if it is present in the array or not.
+
 #include<stdio.h>
 
+//Function for Linear Search
 void Lsearch(int a[], int size, int item)
 {
     int i;
