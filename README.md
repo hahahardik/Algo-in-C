@@ -1,2 +1,2 @@
 # Algo-in-C
-Some basic sorting algorithms written in C
+Some basic algorithms written in C
