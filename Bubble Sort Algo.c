@@ -2,7 +2,8 @@
 
 #include<stdio.h>
 
-void bubble_sort (int a[], int size) //sorting an array using bubble sort algorithm
+//Function for Bubble Sort
+void bubble_sort (int a[], int size) 
 {
     int i, j, k, temp;
 
@@ -18,7 +19,7 @@ void bubble_sort (int a[], int size) //sorting an array using bubble sort algori
             }
         }
 
-        //Stepwise Print
+        //For printing the array after each step
         printf("\nStep %d:\t", i+1);
         for (k=0; k<size; k++)
             printf("%d\t", a[k]);
@@ -27,6 +28,7 @@ void bubble_sort (int a[], int size) //sorting an array using bubble sort algori
     }
 }
 
+//For printing the final array
 void printArray(int a[], int size)
 {
     int l;
@@ -39,6 +41,7 @@ void printArray(int a[], int size)
         printf("%d\t", a[l]);
     }
 }
+
 
 int main()
 {
